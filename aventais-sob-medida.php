@@ -155,7 +155,7 @@
 				<h4>Avental da Jú</h4>
 			</article>
 			<!-- INÍCIO BANNER (MEIO) -->
-			<article class="col-12 casual-banner">
+			<article class="col-12 avental-banner">
 			</article>
 			<!-- FINAL BANNER (MEIO) -->
 			<article class="cat-det col-12 col-sm-6 col-md-4 col-lg-3">

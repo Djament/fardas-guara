@@ -594,7 +594,23 @@ h2.cta-btn{
 	vertical-align: middle;
 
 }
-
+.avental-banner{
+	display: inline-block;
+	margin: 0;
+	color: #000;
+	padding: 12% 20px;
+	width: 100vw;
+	height: 23vh;
+	background-image: url('img/fardas-guara-banner-avental.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+	text-align: center;
+}
 .bar-banner{
 	display: inline-block;
 	margin: 0;
@@ -637,6 +653,23 @@ h2.cta-btn{
 	width: 100vw;
 	height: 23vh;
 	background-image: url('img/fardas-guara-banner-parrilleros.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+	text-align: center;
+}
+.infantil-banner{
+	display: inline-block;
+	margin: 0;
+	color: #000;
+	padding: 12% 20px;
+	width: 100vw;
+	height: 23vh;
+	background-image: url('img/fardas-guara-categoria-infantil-2.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;

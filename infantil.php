@@ -95,7 +95,7 @@
 				<h4>Aventais Bia e Pedro</h4>
 			</article>
 			<!-- INÍCIO BANNER (MEIO) -->
-			<article class="col-12 casual-banner">
+			<article class="col-12 infantil-banner">
 			</article>
 			<!-- FINAL BANNER (MEIO) -->
 			<article class="cat-det col-12 col-sm-6 col-md-4 col-lg-3">

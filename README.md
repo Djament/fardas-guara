@@ -57,8 +57,8 @@ O projeto faz uso de tecnologias básicas, visando melhor performance do código
 - [PHPMailer] 5.2
 - [BootStrap 4.1.3] (CSS/Js)
 - [JQuery] 3.3.1
-- [Google Fonts] ([Anton]/[Raleway]/[Marcellus]/[Poiret One])
-- [Font Awesome] ([Check Square]/[Phone]/[Whatsapp]/[Envelope]/[Globe])
+- [Google Fonts]
+- [Font Awesome]
 - [Google Analytics]
 
 
@@ -106,11 +106,13 @@ Arquivo class.smtp.php não acessível. Links referentes aos arquivos no [GitHub
    [head]: <https://github.com/Djament/fardas-guara/head.php>
    [header]: <https://github.com/Djament/fardas-guara/header.php>
    [index]: <https://github.com/Djament/fardas-guara/index.php>
+   [infantil]: <https://github.com/Djament/fardas-guara/infantil.php>
    [dolma]: <https://github.com/Djament/fardas-guara/infantil.php>
    [readme]: <https://github.com/Djament/fardas-guara/blob/master/README.md>
    [style]: <https://github.com/Djament/fardas-guara/blob/master/style.css>
    [cssmin]: <https://github.com/Djament/fardas-guara/blob/master/style.min.css>
    [img]: <https://github.com/Djament/fardas-guara/tree/master/img>
+   [video]: <https://github.com/Djament/fardas-guara/tree/master/video>
    [issue]: <https://github.com/Djament/fardas-guara/issues/new>
    [GoogleAds]: <https://ads.google.com>
    [HTML5]: <https://www.w3.org/html/>
@@ -119,16 +121,8 @@ Arquivo class.smtp.php não acessível. Links referentes aos arquivos no [GitHub
    [PHPMailer]: <https://github.com/PHPMailer>
    [BootStrap 4.1.3]: <https://getbootstrap.com/docs/4.1/getting-started/introduction/>
    [Google Fonts]: <https://fonts.google.com/>
-   [Anton]: <https://fonts.google.com/specimen/Anton>
-   [Raleway]: <https://fonts.google.com/specimen/Raleway>
-   [Marcellus]: <https://fonts.google.com/specimen/Marcellus>
    [Poiret One]: <https://fonts.google.com/specimen/Poiret+One>
    [Font Awesome]: <https://fontawesome.com/>
-   [Check Square]: <https://fontawesome.com/icons/check-square?style=solid>
-   [Phone]: <https://fontawesome.com/icons/phone?style=solid>
-   [Whatsapp]: <https://fontawesome.com/icons/whatsapp?style=brands>
-   [Envelope]: <https://fontawesome.com/icons/envelope?style=solid>
-   [Glove]: <https://fontawesome.com/icons/globe?style=solid>
    [Google Analytics]: <https://analytics.google.com/analytics/web/>
    [OpenGraph]: <http://ogp.me/>
    [GitHub]: <https://github.com/>
