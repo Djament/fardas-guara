@@ -1,0 +1,648 @@
+/*
+	Projeto: Fardas Guará
+	Theme URI: https://djament.com.br/temas/fardas-guara.zip
+	Author: Marcelo Diament
+	Author URI: https://djament.com.br/cv
+	Description: Tema desenvolvido por Djament Comunicação especialmente para Fardas Guará
+	Version: 1.0.1
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: responsive, one-column, two-columns, seo-optmized, djament, fardas guará, moda, aventais, fardas, uniformes, post-formats, featured-images, custom-menu, custom-header	
+*/
+/* RESETS */
+html, body{
+	max-width: 100vw;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16pt !important;
+	overflow-x: hidden;
+}
+a{
+	color: inherit;
+}
+a:hover, a:active, a:focus, a:visited, a:focus-within{
+	text-decoration: none;
+	font-weight: bolder;
+	color: #fff !important;
+}
+img {
+	pointer-events: none;
+}
+.clearfix{
+	clear: both;
+	display: table;
+	content: '';
+}
+/* FONTES */
+@font-face {
+	font-family: 'Anton', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Anton');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Raleway');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Poiret One', cursive;
+	src: url('https://fonts.googleapis.com/css?family=Poiret+One');
+	font-weight: normal;
+	font-style: normal;
+}
+h1, h2{
+	font-family: 'Anton', sans-serif;
+	font-weight: 500;
+}
+h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+}
+strong{
+	color: inherit;
+	font-weight: inherit;
+}
+/* NAVBAR */
+.navbar{
+	background-color: transparent !important;
+	margin-bottom: -100%;
+	z-index: 3;
+	max-width: 100vw !important;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.navbar:active, .navbar:focus, .navbar:focus-within{
+	background-color: rgba(0,0,0,0.9) !important;
+}
+.navbar-toggler{
+	border: none;
+	font-size: 16pt !important;
+	/*margin: 10px;*/
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(255,255,255,1);
+  padding: 0 !important;
+} 
+.navbar-brand{
+	/*margin: 10px;*/
+}
+.navbar-brand img{
+	/*margin: 10px;*/
+}
+.nav-item{
+	font-size: 16pt !important;
+	line-height: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	font-weight: lighter;
+}
+#navbarNavDropdown{
+	/*background-color: rgba(0,0,0,1);*/
+	padding: 25px;
+}
+.dropdown-menu{
+	background-color: transparent;
+	border: none;
+}
+.dropdown-item{
+	font-size: 16pt !important;
+	line-height: 20px;
+	color: #fff;
+	font-weight: lighter;
+}
+/* FOOTER */
+footer{
+	background-color: #000;
+	color: #fff;
+	/*padding: 200px 50px 50px 50px;*/
+	font-size: 16pt !important;
+	font-weight: normal;
+	font-family: 'Poiret One', cursive;
+}
+.footer{
+	text-align: center;
+	padding-top: 40px;
+}
+.footer h4{
+	font-size: 16pt !important;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.footer-left ul{
+	list-style: none;
+	text-align: center;
+	padding: inherit;
+}
+.footer-left ul li a{
+	text-decoration: none;
+	line-height: 36px;
+}
+fieldset{
+	width: min-content;
+	margin: auto;
+}
+input[type=submit]{
+	padding: 2px 12px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+input[type=submit]:hover{
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	font-size: 16pt !important;
+}
+.footer-mid div{
+	margin-bottom: 40px;
+}
+.footer-mid a{
+	line-height: 21px;
+	vertical-align: middle;
+}
+.footer-mid input{
+	font-weight: bold;
+	width: 64vw;
+}
+.footer-mid input[type=submit]{
+	width: auto;
+	font-weight: normal;
+}
+fieldset{
+	padding: 25px;
+}
+.footer-right small{
+	font-size: 16pt !important;
+}
+.footer-right form input{
+	margin-bottom: 25px;
+	font-weight: bold;
+	width: 75vw;
+}
+.footer-right input[type=submit]{
+	float: right;
+	width: 20vw;
+	font-weight: normal;
+}
+.fa-envelope{
+	font-size: 16pt !important;
+	/*font-weight: normal;*/
+	padding: 5px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.fa-whatsapp{
+	font-size: 16pt !important;
+	padding: 15px;
+	border-radius: 5px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.fa-instagram, .fa-facebook-square{
+	font-size: 24pt !important;
+	padding: 15px;
+	border-radius: 5px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.fa-instagram{
+	background: rgba(240,148,51,1); 
+	background: -moz-linear-gradient(45deg, rgba(240,148,51,1) 0%, rgba(230,104,60,0) 25%, rgba(220,39,67,0) 50%, rgba(204,35,102,0) 75%, rgba(188,24,136,0) 100%); 
+	background: -webkit-linear-gradient(45deg, rgba(240,148,51,1) 0%,rgba(230,104,60,0) 25%,rgba(220,39,67,0) 50%,rgba(204,35,102,0) 75%,rgba(188,24,136,0) 100%); 
+	background: linear-gradient(45deg, rgba(240,148,51, 0) 0%,rgba(230,104,60,0) 25%,rgba(220,39,67,0) 50%,rgba(204,35,102,0) 75%,rgba(188,24,136,0) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(240,148,51, 0)', endColorstr='rgba(188,24,136,0)',GradientType=1 );
+}
+.fa-instagram:hover{
+	background: rgba(240,148,51,1); 
+	background: -moz-linear-gradient(45deg, rgba(240,148,51,1) 0%, rgba(230,104,60,1) 25%, rgba(220,39,67,1) 50%, rgba(204,35,102,1) 75%, rgba(188,24,136,1) 100%); 
+	background: -webkit-linear-gradient(45deg, rgba(240,148,51,1) 0%,rgba(230,104,60,1) 25%,rgba(220,39,67,1) 50%,rgba(204,35,102,1) 75%,rgba(188,24,136,1) 100%); 
+	background: linear-gradient(45deg, rgba(240,148,51,1) 0%,rgba(230,104,60,1) 25%,rgba(220,39,67,1) 50%,rgba(204,35,102,1) 75%,rgba(188,24,136,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(240,148,51,1)', endColorstr='rgba(188,24,136,1)',GradientType=1 );
+}
+.fa-facebook-square:hover{
+	color: #3b5998;
+}
+.cnpj{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* BANNER */
+/*.banner-container{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-banner-01.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}*/
+.banner{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-banner-01.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}
+#myVideo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index: 1;
+}
+.banner-info{
+	position: absolute;
+		bottom: 0;
+		left: 0;
+	padding: 50px 20px 80px 20px;
+	text-align: left;
+	z-index: 2;
+}
+.banner-title{
+	font-size: 32pt !important;
+	text-transform: uppercase;
+}
+.banner-description{
+	font-size: 20pt !important;
+}
+/* DISPLAY > CARDS */
+.card{
+	height: 100vh;
+	color: #fff;
+	border-radius: none;
+}
+.card:nth-child(odd){
+	background-color: #deffa5;
+}
+.card:nth-child(even){
+	background-color: #f9b7b7;
+}
+.card-info{
+	position: absolute;
+		bottom: 0;
+		left: 0;
+	padding: 50px 20px 50px 20px;
+	text-align: left;
+}
+.card-title{
+	font-size: 24pt !important;
+	text-transform: uppercase;
+}
+.card-description{
+	font-size: 18pt !important;
+	width: 100%;
+}
+/* CATEGORIAS */
+#dolmas{
+	background-image: url('img/fardas-guara-categoria-dolmas.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+}
+#aventais{
+	background-image: url('img/fardas-guara-categoria-aventais.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+}
+#bar-e-restaurante{
+	background-image: url('img/fardas-guara-categoria-bar-e-restaurante.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+}
+#parrilleros{
+	background-image: url('img/fardas-guara-categoria-parrilleros.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+}
+#infantil{
+	background-image: url('img/fardas-guara-categoria-infantil.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+}
+#casual{
+	background-image: url('img/fardas-guara-categoria-casual.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+}
+/*#pet{
+	background-image: url('img/fardas-guara-categoria-pet.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+}*/
+/* CATEGORIA VITRINE DETALHE */
+.cat-vit{
+	background-image: url('img/bg-sobre.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+}
+.cat-vit h2{
+	width: 100%;
+	margin: 30px;
+	color: #fff;
+	font-size: 22pt;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+.cat-det{
+	padding: 20px;
+}
+.cat-det img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.cat-det h4{
+	font-size: 32pt !important;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: normal;
+	font-family: 'Anton', sans-serif;
+	margin-top: 20px;
+}
+/* MOSAICO */
+.destaque-fotos{
+	height: auto;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+}
+.destaque-fotos article{
+	height: auto;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+}
+.destaque-fotos article img{
+	width: 100vw;
+	height: auto;
+	margin: 0px -15px !important;
+	padding: 0 !important;
+}
+/* FLIP */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 427px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.8s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+/* CATEGORIAS SM */
+.card-sm{
+	height: 50vh;
+	color: #fff;
+	border-radius: 20px !important;
+	margin: 0px;
+	background-attachment: scroll !important;
+	border: 2px solid #fff;
+}
+.card-sm:hover{
+	border-radius: 40px !important;
+	border: 1px solid #fff;
+}
+.card-sm .card-info{
+	padding: 0px 10px !important;
+}
+.cta-cotacao{
+	display: inline-block;
+	margin: 0;
+	color: #000;
+	padding: 12% 20px;
+	width: 50vw;
+	background-image: url('img/frete-embalagem.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+	text-align: center;
+}
+h2.cta-btn{
+	margin: 0 !important;
+	font-family: 'Raleway', sans-serif;
+	padding: 2px 12px;
+	color: #000 !important;
+	font-weight: normal;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+}
+.cta-btn:hover{
+	text-decoration: none;
+/*	color: #fff !important;*/
+	font-weight: normal;
+}
+.fas.fa-dolly{
+	font-size: 65px;
+}
+/* DEPIOMENTOS */
+.depoimentos{
+	min-width: 100vw; 
+	width: 100vw;
+	min-height: 50vh;
+	display: block;
+}
+.depoimentos-bloco{
+	display: inline-flex;
+	padding: 23px;
+}
+.depoimentos-txt{
+	padding: 23px;
+	font-style: italic;
+	font-weight: lighter;
+}
+.tit-case{
+	margin: auto 0 !important;
+	font-family: 'Raleway', sans-serif;
+	padding: 2px 15px;
+	color: #000 !important;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 12pt;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+}
+.mosaico{
+	display: inline-block;
+	margin: 0;
+	color: #000;
+	padding: 12% 20px;
+	width: 100vw;
+	height: 23vh;
+	background-image: url('img/dolmas-mosaico.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: top;
+	background-repeat: repeat;
+	background-size: contain;
+	border-radius: unset;
+	text-align: center;
+}
+.videcase-art{
+	margin-left: -23px !important;
+	width: 115vw !important;
+}
+.depoimentos .depoimento{
+	max-width: 500%;
+	height: auto;
+	display: inline;
+	padding-top: 25px;
+}
+.depoimentos .depoimento-txt{
+	vertical-align: middle;
+
+}
+
+.bar-banner{
+	display: inline-block;
+	margin: 0;
+	color: #000;
+	padding: 12% 20px;
+	width: 100vw;
+	height: 23vh;
+	background-image: url('img/fardas-guara-banner-bar.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+	text-align: center;
+}
+.casual-banner{
+	display: inline-block;
+	margin: 0;
+	color: #000;
+	padding: 12% 20px;
+	width: 100vw;
+	height: 23vh;
+	background-image: url('img/fardas-guara-categoria-casual.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+	text-align: center;
+}
+.parrilleros-banner{
+	display: inline-block;
+	margin: 0;
+	color: #000;
+	padding: 12% 20px;
+	width: 100vw;
+	height: 23vh;
+	background-image: url('img/fardas-guara-banner-parrilleros.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: unset;
+	text-align: center;
+}
