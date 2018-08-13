@@ -25,22 +25,22 @@
 					<a href="https://facebook.com/pg/fardasguara/" target="_blank"><i class="fab fa-facebook-square"></i></a>
 				</div>
 				<h4>Inscreva-se e receba seu primeiro desconto agora mesmo!</h4>
-					<form action="obrigado.php" method="post">
-						<input type="email" name="newsletter" placeholder=" Insira seu email">
+					<form action="mensagem-newsletter.php" method="post">
+						<input type="email" name="newsletter" value="newsletter" placeholder=" Insira seu email">
 						<input type="submit" value="OK">
 					</form>
 			</article>
 			<article class="footer-right col-12 col-md-4">
 				<h4 id="cotacao-online-form">Cotação Online</h4>
 					<div>
-						<form action="obrigado.php" method="post">
+						<form action="mensagem-cotacao-footer.php" method="post">
 							<small>Envie seus dados e retornamos em breve!</small>
 							<!-- <fieldset> -->
-								<input type="text" placeholder=" Insira seu nome" name="nome">
+								<input type="text" placeholder=" Insira seu nome" value="nome" name="nome">
 								<br/>
-								<input type="email" placeholder=" Insira seu email" name="email">
+								<input type="email" placeholder=" Insira seu email" value="email" name="email">
 								<br/>
-								<input type="number" placeholder=" Insira seu telefone" name="tel">
+								<input type="number" placeholder=" Insira seu telefone" value="tel" name="tel">
 								<br/>
 								<input type="submit" value="Enviar">
 							<!-- </fieldset> -->
