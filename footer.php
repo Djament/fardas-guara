@@ -26,7 +26,7 @@
 				</div>
 				<h4>Inscreva-se e receba seu primeiro desconto agora mesmo!</h4>
 					<form action="mensagem-newsletter.php" method="post">
-						<input type="email" name="newsletter" value="newsletter" placeholder=" Insira seu email">
+						<input type="email" name="newsletter" required id="newsletter" placeholder=" Insira seu email">
 						<input type="submit" value="OK">
 					</form>
 			</article>
@@ -36,11 +36,11 @@
 						<form action="mensagem-cotacao-footer.php" method="post">
 							<small>Envie seus dados e retornamos em breve!</small>
 							<!-- <fieldset> -->
-								<input type="text" placeholder=" Insira seu nome" value="nome" name="nome">
+								<input type="text" placeholder=" Insira seu nome*" required id="nome" name="nome">
 								<br/>
-								<input type="email" placeholder=" Insira seu email" value="email" name="email">
+								<input type="email" placeholder=" Insira seu email*" required id="email" name="email">
 								<br/>
-								<input type="number" placeholder=" Insira seu telefone" value="tel" name="tel">
+								<input type="number" placeholder=" Insira seu telefone*" required id="tel" name="tel">
 								<br/>
 								<input type="submit" value="Enviar">
 							<!-- </fieldset> -->

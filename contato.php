@@ -45,19 +45,19 @@
 							<br/>
 							<label for="nome">Nome*</label>
 							<br/>
-							<input type="text" placeholder=" Insira seu nome" value="nome" name="nome" required>
+							<input type="text" placeholder=" Insira seu nome" id="nome" name="nome" required>
 							<br/>
 							<label for="email">email*</label>
 							<br/>
-							<input type="email" placeholder=" Insira seu email" value="email" name="email" required>
+							<input type="email" placeholder=" Insira seu email" id="email" name="email" required>
 							<br/>
-							<label for="tel">Telefone</label>
+							<label for="tel">Telefone*</label>
 							<br/>
-							<input type="number" placeholder=" Insira seu DDD + telefone" value="tel" name="tel">
+							<input type="number" placeholder=" Insira seu DDD + telefone" id="tel" name="tel" required>
 							<br/>
 							<label for="mensagem">Mensagem</label>
 							<br/>
-							<textarea value="mensagem" name="mensagem" id="mensagem" resize="vertical" cols="30" rows="10" placeholder=" Insira sua mensagem"></textarea>
+							<textarea id="mensagem" name="mensagem" id="mensagem" resize="vertical" cols="30" rows="10" placeholder=" Insira sua mensagem"></textarea>
 							<br/>
 							<input type="submit" value="Enviar">
 						</form>
