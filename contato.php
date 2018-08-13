@@ -40,24 +40,24 @@
 			<article class="contato-det contato-cotacao col-12 offset-md-2 col-md-5">
 				<h4 id="cotacao-online-form">Cotação Online</h4>
 					<div class="contato-form-div">
-						<form action="obrigado.php" method="post">
+						<form action="mensagem-enviada.php" method="post">
 							<small>Envie seus dados e retornamos em breve!</small>
 							<br/>
-							<label for="nome">Nome</label>
+							<label for="nome">Nome*</label>
 							<br/>
-							<input type="text" placeholder=" Insira seu nome" name="nome">
+							<input type="text" placeholder=" Insira seu nome" value="nome" name="nome" required>
 							<br/>
-							<label for="email">email</label>
+							<label for="email">email*</label>
 							<br/>
-							<input type="email" placeholder=" Insira seu email" name="email">
+							<input type="email" placeholder=" Insira seu email" value="email" name="email" required>
 							<br/>
 							<label for="tel">Telefone</label>
 							<br/>
-							<input type="number" placeholder=" Insira seu telefone" name="tel">
+							<input type="number" placeholder=" Insira seu DDD + telefone" value="tel" name="tel">
 							<br/>
 							<label for="mensagem">Mensagem</label>
 							<br/>
-							<textarea name="mensagem" id="mensagem" resize="vertical" cols="30" rows="10" placeholder=" Insira sua mensagem"></textarea>
+							<textarea value="mensagem" name="mensagem" id="mensagem" resize="vertical" cols="30" rows="10" placeholder=" Insira sua mensagem"></textarea>
 							<br/>
 							<input type="submit" value="Enviar">
 						</form>
