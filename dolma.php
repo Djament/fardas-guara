@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html prefix="og: http://ogp.me/ns#">
 <html lang="pt">
 <head>
-	<title>Dólmãs feitos sob medida | Fardas Guará</title>
-	<meta name="title" content="Dólmãs feitos sob medida | Fardas Guará">
 	<?php include_once 'head.php'; ?>
+	<title>Dólmãs Sob Medida | Fardas Guará</title>
+	<meta name="title" content="Dólmãs Sob Medida | Fardas Guará">
+	<meta name="description" content="Dólmãs Sob Medida para Chefs e Cozinheiros">
+    <meta name="keywords" content="dólmãs sob medida, farda, uniforme, avental, dólmã, farda sob medida, uniforme sob medida, avental sob medida, dólmã sob medida, farda para chefs, uniforme para chefs, avental para chefs, dólmã para chefs">
+</head>
 	<?php include_once 'header.php'; ?>
 	<main class="container-fluid">
 		<!-- BANNER -->
@@ -25,7 +28,7 @@
 				<a href="#">
 					<div class="banner-info">
 						<img src="img/logo.png" alt="" width="67" height="auto">
-						<h1 class="banner-title">Dólmãs</h1>
+						<h1 class="banner-title">Dólmãs Sob Medida</h1>
 						<h3 class="banner-description">Dólmãs e Fardas personalizadas para Chefs e Cozinheiros</h3>
 					</div>
 				</a>
@@ -116,7 +119,7 @@
 			<span class="clearfix"></span>
 			<article class="col-12 cta-cotacao">
 				<i class="fas fa-dolly"></i>
-				<h2 class="cta-btn"><a href="#"><br/>Como encomendar minha dólmã?</a></h2>
+				<h2 class="cta-btn"><a href="#cotacao-online-form"><br/>Como encomendar minha dólmã?</a></h2>
 			</article>
 		</section>
 		<!-- DEPOIMENTOS -->

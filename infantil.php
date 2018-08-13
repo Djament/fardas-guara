@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html prefix="og: http://ogp.me/ns#">
 <html lang="pt">
 <head>
-	<title>Aventais Infantis | Fardas Guará</title>
-	<meta name="title" content="Aventais Infantis | Fardas Guará">
 	<?php include_once 'head.php'; ?>
+	<title>Aventais e Uniformes Infantis | Fardas Guará</title>
+	<meta name="title" content="Aventais e Uniformes Infantis | Fardas Guará">
+	<meta name="description" content="Aventais e Uniformes Infantis feitos Sob Medida para Crianças">
+    <meta name="keywords" content="aventais e uniformes infantis, farda, uniforme, avental, dólmã, farda infantil, uniforme infantil, avental infantil, dólmã infantil, farda para crianças, uniforme para crianças, avental para crianças, dólmã para crianças">
+</head>
 	<?php include_once 'header.php'; ?>
 	<main class="container-fluid">
 		<!-- BANNER -->
@@ -25,7 +28,7 @@
 				<a href="#">
 					<div class="banner-info">
 						<img src="img/logo.png" alt="" width="67" height="auto">
-						<h1 class="banner-title">Aventais Infantis</h1>
+						<h1 class="banner-title">Aventais e Uniformes Infantis</h1>
 						<h3 class="banner-description">Feito para os mini chefs</h3>
 					</div>
 				</a>
@@ -146,7 +149,7 @@
 			<span class="clearfix"></span>
 			<article class="col-12 cta-cotacao">
 				<i class="fas fa-dolly"></i>
-				<h2 class="cta-btn"><a href="#"><br/>Como encomendar minha dólmã?</a></h2>
+				<h2 class="cta-btn"><a href="#cotacao-online-form"><br/>Como encomendar um avental infantil?</a></h2>
 			</article>
 		</section>
 		<!-- DEPOIMENTOS -->

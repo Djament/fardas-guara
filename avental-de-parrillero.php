@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html prefix="og: http://ogp.me/ns#">
 <html lang="pt">
 <head>
+	<?php include_once 'head.php'; ?>
 	<title>Aventais para Parrilleros | Fardas Guará</title>
 	<meta name="title" content="Aventais para Parrilleros | Fardas Guará">
-	<?php include_once 'head.php'; ?>
+	<meta name="description" content="Aventais para Parrilleros feitos Sob Medida">
+    <meta name="keywords" content="aventais para parrilleros, farda, uniforme, avental, dólmã, farda sob medida, uniforme sob medida, avental sob medida, dólmã sob medida, farda para parrillero, uniforme para parrillero, avental para parrillero, dólmã para parrillero, farda para churrasqueiro, uniforme para churrasqueiro, avental para churrasqueiro, dólmã para churrasqueiro">
+</head>
 	<?php include_once 'header.php'; ?>
 	<main class="container-fluid">
 		<!-- BANNER -->
@@ -33,36 +36,36 @@
 		</section>
 		<!-- DETALHES CATEGORIA DE PRODUTO -->
 		<section class="cat-vit row">
-			<h2><strong>dólmãs sob medida</strong></h2>
+			<h2><strong>Aventais de Parrillero customizados</strong></h2>
 			<article class="cat-det col-12 col-sm-6 col-md-4 col-lg-3">
 				<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 					<div class="flipper">
 						<div class="front">
 							<!-- front content -->
-							<img src="http://fardasguara.hospedagemdesites.ws/img/dolman-01-a-fardas-guara.jpg" alt="">
+							<img src="http://fardasguara.hospedagemdesites.ws/img/aventais-personalizados-02-fardas-guara.jpg" alt="">
 						</div>
 						<div class="back">
 							<!-- back content -->
-							<img src="http://fardasguara.hospedagemdesites.ws/img/dolman-01-b-fardas-guara.jpg" alt="">
+							<img src="http://fardasguara.hospedagemdesites.ws/img/aventais-personalizados-02-b-fardas-guara.png" alt="">
 						</div>
 					</div>
 				</div>
-				<h4>Dólmã Jupará</h4>
+				<h4>Avental Bravos</h4>
 			</article>
 			<article class="cat-det col-12 col-sm-6 col-md-4 col-lg-3">
 				<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 					<div class="flipper">
 						<div class="front">
 							<!-- front content -->
-							<img src="http://fardasguara.hospedagemdesites.ws/img/dolman-02-a-fardas-guara.jpg" alt="">
+							<img src="http://fardasguara.hospedagemdesites.ws/img/aventais-personalizados-07-fardas-guara.jpg" alt="">
 						</div>
 						<div class="back">
 							<!-- back content -->
-							<img src="http://fardasguara.hospedagemdesites.ws/img/dolman-02-b-fardas-guara.jpg" alt="">
+							<img src="http://fardasguara.hospedagemdesites.ws/img/aventais-personalizados-07-b-fardas-guara.jpg" alt="">
 						</div>
 					</div>
 				</div>
-				<h4>Dólmã Urutau</h4>
+				<h4>Avental Pelotas</h4>
 			</article>
 			<article class="cat-det col-12 col-sm-6 col-md-4 col-lg-3">
 				<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -116,7 +119,7 @@
 			<span class="clearfix"></span>
 			<article class="col-12 cta-cotacao">
 				<i class="fas fa-dolly"></i>
-				<h2 class="cta-btn"><a href="#"><br/>Como encomendar minha dólmã?</a></h2>
+				<h2 class="cta-btn"><a href="#cotacao-online-form"><br/>Como encomendar meu avental de parrillero?</a></h2>
 			</article>
 		</section>
 		<!-- DEPOIMENTOS -->

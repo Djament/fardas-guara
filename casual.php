@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html prefix="og: http://ogp.me/ns#">
 <html lang="pt">
 <head>
+	<?php include_once 'head.php'; ?>
 	<title>Aventais Personalizados | Fardas Guará</title>
 	<meta name="title" content="Aventais Personalizados | Fardas Guará">
-	<?php include_once 'head.php'; ?>
+	<meta name="description" content="Aventais Personalizados para o dia a dia">
+    <meta name="keywords" content="aventais personalizados, farda, uniforme, avental, dólmã, farda sob medida, uniforme sob medida, avental sob medida, dólmã sob medida, farda customizada, uniforme customizado, avental customizado, dólmã customizada, farda personalizada, uniforme personalizado, avental personalizado, dólmã personalizada">
+</head>
 	<?php include_once 'header.php'; ?>
 	<main class="container-fluid">
 		<!-- BANNER -->
@@ -128,25 +131,10 @@
 				</div>
 				<h4>Aventais Rosa e Carlos</h4>
 			</article>
-			<article class="cat-det col-12 col-sm-6 col-md-4 col-lg-3">
-				<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-					<div class="flipper">
-						<div class="front">
-							<!-- front content -->
-							<img src="http://fardasguara.hospedagemdesites.ws/img/dolman-05-a-fardas-guara.jpg" alt="">
-						</div>
-						<div class="back">
-							<!-- back content -->
-							<img src="http://fardasguara.hospedagemdesites.ws/img/dolman-05-b-fardas-guara.jpg" alt="">
-						</div>
-					</div>
-				</div>
-				<h4>Dólmã Cariama</h4>
-			</article>
 			<span class="clearfix"></span>
 			<article class="col-12 cta-cotacao">
 				<i class="fas fa-dolly"></i>
-				<h2 class="cta-btn"><a href="#"><br/>Como encomendar minha dólmã?</a></h2>
+				<h2 class="cta-btn"><a href="#cotacao-online-form"><br/>Como encomendar meu avental?</a></h2>
 			</article>
 		</section>
 		<!-- DEPOIMENTOS -->

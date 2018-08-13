@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html prefix="og: http://ogp.me/ns#">
 <html lang="pt">
 <head>
-	<title>Fardas, Dólmãs, Aventais e Uniformes sob Medida | Fardas Guará</title>
-	<meta name="title" content="Fardas, Dólmãs, Aventais e Uniformes sob Medida | Fardas Guará">
 	<?php include_once 'head.php'; ?>
+	<title>Fardas, Dólmãs, Aventais e Uniformes sob Medida | Fardas Guará</title>
+	<meta name="title" content="Fardas sob Medida | Fardas Guará">
+	<meta name="description" content="Fardas, Aventais, Dólmãs, Aventais e Uniformes Sob Medida">
+    <meta name="keywords" content="farda, uniforme, avental, dólmã, avental para parrillero, avental para churrasqueiro, farda sob medida, uniforme sob medida, avental sob medida, dólmã sob medida, avental para parrillero sob medida, avental para churrasqueiro sob medida, farda customizada, uniforme customizada, avental customizada, dólmã customizada, avental para parrillero customizada, avental para churrasqueiro customizada, farda personalizada, uniforme personalizada, avental personalizada, dólmã personalizada, avental para parrillero personalizada, avental para churrasqueiro personalizada, farda para bar e restaurante, uniforme para bar e restaurante, avental para bar e restaurante, dólmã para bar e restaurante, avental para parrillero para bar e restaurante, avental para churrasqueiro para bar e restaurante">
+	</head>
 	<?php include_once 'header.php'; ?>
 	<main class="container-fluid">
 		<!-- BANNER -->
@@ -22,13 +25,13 @@
 				<!-- <script async>
 					//document.getElementById('myvideo').play();
 				</script>-->
-				<a href="#">
+				<!-- <a href="#"> -->
 					<div class="banner-info">
 						<img src="img/logo.png" alt="" width="67" height="auto">
 						<h1 class="banner-title">Fardas Guará</h1>
 						<h3 class="banner-description">Fardas, dólmãs, aventais e uniformes sob medida!</h3>
 					</div>
-				</a>
+				<!-- </a> -->
 			</article>
 		</section>
 		<!-- VITRINE (CATEGORIAS) -->
@@ -61,8 +64,10 @@
 				</a>
 			</article>
 			<!-- CTA COTAÇÃO -->
+			<span class="clearfix"></span>
 			<article class="col-12 cta-cotacao">
-				<h2 class="cta-btn"><a href="#">Como <strong>encomendar minha farda</strong>?</a></h2>
+				<i class="fas fa-dolly"></i>
+				<h2 class="cta-btn"><a href="#cotacao-online-form"><br/>Como encomendar uma farda sob medida</a></h2>
 			</article>
 			<!-- CATEGORIA -->
 			<article class="card col-12 col-lg-6" id="parrilleros">

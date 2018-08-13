@@ -4,11 +4,11 @@
 				<h4>Tipos de Fardas</h4>
 				<ul>
 					<li><a href="dolma.php">Dólmãs</a></li>
-					<li><a href="avental-de-parrillero.php">Parrilleros</a></li>
-					<li><a href="bar-e-restaurante.php">Bar e Restaurante</a></li>
 					<li><a href="aventais-sob-medida.php">Aventais</a></li>
-					<li><a href="casual.php">Casual</a></li>
+					<li><a href="bar-e-restaurante.php">Bar e Restaurante</a></li>
+					<li><a href="avental-de-parrillero.php">Parrilleros</a></li>
 					<li><a href="infantil.php">Infantil</a></li>
+					<li><a href="casual.php">Casual</a></li>
 					<!-- <li><a href="#">Pets</a></li> -->
 				</ul>
 			</article>
@@ -35,7 +35,7 @@
 					<div>
 						<form action="obrigado.php" method="post">
 							<small>Envie seus dados e retornamos em breve!</small>
-							<fieldset>
+							<!-- <fieldset> -->
 								<input type="text" placeholder=" Insira seu nome" name="nome">
 								<br/>
 								<input type="email" placeholder=" Insira seu email" name="email">
@@ -43,13 +43,21 @@
 								<input type="number" placeholder=" Insira seu telefone" name="tel">
 								<br/>
 								<input type="submit" value="Enviar">
-							</fieldset>
+							<!-- </fieldset> -->
 						</form>
 					</div>
 			</article>
 			<article class="cnpj col-12">
 				<img src="img/logo.png" alt="" width="33" height="auto">
 				<small>CNPJ 27.527.177/0001-05</small>
+			</article>
+			<article class="djament col-12">
+				<a href="https://djament.com.br" target="_blank" rel="author">
+					<small>Djament</small>
+				</a>
+				<a href="https://djament.com.br" target="_blank" rel="author">
+					<img src="img/logo-20x20.png" alt="" width="20" height="auto">
+				</a>
 			</article>
 		</section>
 	</footer>

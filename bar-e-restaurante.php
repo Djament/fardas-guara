@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html prefix="og: http://ogp.me/ns#">
 <html lang="pt">
 <head>
+	<?php include_once 'head.php'; ?>
 	<title>Fardas para Bares e Restaurantes | Fardas Guará</title>
 	<meta name="title" content="Fardas para Bares e Restaurantes | Fardas Guará">
-	<?php include_once 'head.php'; ?>
+	<meta name="description" content="Fardas para Bares e Restaurantes para Cozinha, Bar, Salão e Recepção">
+    <meta name="keywords" content="fardas para bares e restaurantes, farda, uniforme, avental, dólmã, farda sob medida, uniforme sob medida, avental sob medida, dólmã sob medida, farda para bar, uniforme para bar, avental para bar, dólmã para bar, farda para restaurante, uniforme para restaurante, avental para restaurante, dólmã para restaurante">
+</head>
 	<?php include_once 'header.php'; ?>
 	<main class="container-fluid">
 		<!-- BANNER -->
@@ -25,7 +28,7 @@
 				<a href="#">
 					<div class="banner-info">
 						<img src="img/logo.png" alt="" width="67" height="auto">
-						<h1 class="banner-title">Bar e Restaurante</h1>
+						<h1 class="banner-title">Fardas para Bares e Restaurantes</h1>
 						<h3 class="banner-description">Fardas, Dólmãs, Uniformes e Aventais para cozinha, salão e recepção</h3>
 					</div>
 				</a>
@@ -251,7 +254,7 @@
 			<span class="clearfix"></span>
 			<article class="col-12 cta-cotacao">
 				<i class="fas fa-dolly"></i>
-				<h2 class="cta-btn"><a href="#"><br/>Como encomendar minha dólmã?</a></h2>
+				<h2 class="cta-btn"><a href="#cotacao-online-form"><br/>Como encomendar as fardas?</a></h2>
 			</article>
 		</section>
 		<!-- DEPOIMENTOS -->

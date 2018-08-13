@@ -1,15 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE html prefix="og: http://ogp.me/ns#">
 <html lang="pt">
 <head>
+	<?php include_once 'head.php'; ?>
 	<title>Aventais Sob Medida | Fardas Guará</title>
 	<meta name="title" content="Aventais Sob Medida | Fardas Guará">
-	<?php include_once 'head.php'; ?>
+	<meta name="description" content="Aventais Sob Medida para Cozinha, Bar, Salão e Recepção">
+    <meta name="keywords" content="aventais sob medida, farda, uniforme, avental, dólmã, farda sob medida, uniforme sob medida, avental sob medida, dólmã sob medida, farda customizada, uniforme customizado, avental customizado, dólmã customizada, farda personalizada, uniforme personalizado, avental personalizado, dólmã personalizada">
+</head>
 	<?php include_once 'header.php'; ?>
 	<main class="container-fluid">
 		<!-- BANNER -->
 		<section class="banner-container row">
 			<article class="banner col-12">
-				<video autoplay="autoplay" loop="loop" muted nodownload preload="auto" playsinline id="myVideo">
+				<video autoplay="autoplay" loop="loop" muted nodownload preload="auto" playsinline id="myVideoR">
 					<source src="video/bg-aventais.mp4" type="video/mp4">
 					<!-- <source src="video/bg-aventais.mov" type="video/mov">
 					<source src="video/bg-aventais.webm" type="video/webm">
@@ -20,13 +23,13 @@
 					</object>
 				</video>
 				<script async>
-					document.getElementById('myvideo').play();
+					document.getElementById('myvideoR').play();
 				</script>
 				<a href="#">
 					<div class="banner-info">
 						<img src="img/logo.png" alt="" width="67" height="auto">
 						<h1 class="banner-title">Aventais Sob Medida</h1>
-						<h3 class="banner-description">Feito especialmente para você</h3>
+						<h3 class="banner-description">Aventais feitos especialmente para você</h3>
 					</div>
 				</a>
 			</article>
@@ -221,7 +224,7 @@
 			<span class="clearfix"></span>
 			<article class="col-12 cta-cotacao">
 				<i class="fas fa-dolly"></i>
-				<h2 class="cta-btn"><a href="#"><br/>Como encomendar minha dólmã?</a></h2>
+				<h2 class="cta-btn"><a href="#cotacao-online-form"><br/>Como encomendar meu avental?</a></h2>
 			</article>
 		</section>
 		<!-- DEPOIMENTOS -->
