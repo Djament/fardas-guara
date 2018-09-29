@@ -2,4 +2,4 @@
 User-agent: *
 Disallow: 
 Disallow: 
-Sitemap: http://fardasguara.hospedagemdesites.ws/sitemap.xml
+Sitemap: http://fardasguara.com/sitemap.xml

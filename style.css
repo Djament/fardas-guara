@@ -29,10 +29,16 @@ a:hover, a:active, a:focus, a:visited, a:focus-within{
 img {
 	pointer-events: none;
 }
+
 .clearfix{
 	clear: both;
 	display: table;
 	content: '';
+}
+@media only screen and (max-device-width: 768px){
+	.desktop-only{
+		display: none;
+	}
 }
 ::-webkit-scrollbar {
 	width: 2px;
@@ -208,16 +214,44 @@ fieldset{
 }
 .footer-right small{
 	font-size: 16pt !important;
+	line-height: 60px;
+}
+.footer-right label{
+	width: 80px;
+	text-align: left;
+}
+.footer-right label[for=mensagem]{
+	display: block;
+	margin-left: 30px;
 }
 .footer-right form input{
 	margin-bottom: 25px;
 	font-weight: bold;
-	width: 100%;
+	width: 70%;
+}
+.footer-right form textarea{
+	margin-bottom: 25px;
+	font-weight: bold;
+	width: 70%;
+	height: 100px;
+	margin-left: 100px;
 }
 .footer-right input[type=submit]{
 	float: right;
-	width: 20vw;
+	width: 70%;
 	font-weight: normal;
+	margin-right: 28px;
+}
+@media only screen and (max-device-width: 768px){
+	.footer-right label[for=mensagem]{
+		margin-left: 5PX;
+	}
+	.footer-right form textarea{
+		margin-left: 90px;
+	}
+	.footer-right input[type=submit]{
+		margin-right: 10px;
+	}	
 }
 .fa-envelope{
 	font-size: 16pt !important;
@@ -268,51 +302,221 @@ fieldset{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 0px;
+	display: contents;
 }
 .djament a{
 	text-decoration: none;
+	display: block;
 }
 .djament a:hover{
 	text-decoration: none;
 }
 .djament img{
 	display: inline-block;
-	float: right;
-	margin: 1px;
+	padding-bottom: 5px;
 }
-.djament small{
+.djament .rama{
+	float: left;
+	text-align: -webkit-left;
+	display: inline-block;
+}
+.djament .djament-comunicacao{
 	display: inline-block;
 	float: right;
-	margin-right: 10px;
-	margin-left: 10px;
+	text-align: -webkit-right;
 }
-/* BANNER */
-/*.banner-container{
+/* TOPOS INSTITUCIONAIS */
+.topo-home{
 	height: 100vh;
 	color: #fff;
-	background-image: url('img/fardas-guara-banner-01.jpg');
+	background-image: url('img/fardas-guara-dolmas-fardas-aventais-uniformes-topo.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	display: inline-block;
-}*/
-.banner{
+}
+@media only screen and (max-device-width: 768px){
+	.topo-home{
+		background-attachment: scroll;
+	}
+}
+.topo-sobre{
 	height: 100vh;
 	color: #fff;
-	background-image: url('img/fardas-guara-banner-01.jpg');
+	background-image: url('img/fardas-guara-fardas-sob-medida-topo.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	display: inline-block;
 }
+@media only screen and (max-device-width: 768px){
+	.topo-sobre{
+		background-attachment: scroll;
+	}
+}
+.topo-contato{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-cotacao-fardas-sob-medida-topo.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}
+@media only screen and (max-device-width: 768px){
+	.topo-contato{
+		background-attachment: scroll;
+	}
+}
+/* TOPOS CATEGORIAS */
+.topo-dolmas{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-dolmas-topo.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}
+@media only screen and (max-device-width: 768px){
+	.topo-dolmas{
+		background-attachment: scroll;
+	}
+}
+.topo-aventais{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-aventais-topo.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}
+@media only screen and (max-device-width: 768px){
+	.topo-aventais{
+		background-attachment: scroll;
+	}
+}
+.topo-bar-e-restaurante{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-bar-e-restaurante-topo.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}
+@media only screen and (max-device-width: 768px){
+	.topo-bar-e-restaurante{
+		background-attachment: scroll;
+	}
+}
+.topo-parrilleros{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-parrilleros-topo.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}
+@media only screen and (max-device-width: 768px){
+	.topo-parrilleros{
+		background-attachment: scroll;
+	}
+}
+.topo-infantil{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-infantil-topo.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}
+@media only screen and (max-device-width: 768px){
+	.topo-infantil{
+		background-attachment: scroll;
+	}
+}
+.topo-casual{
+	height: 100vh;
+	color: #fff;
+	background-image: url('img/fardas-guara-casual-topo.jpg');
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+	display: inline-block;
+}
+@media only screen and (max-device-width: 768px){
+	.topo-casual{
+		background-attachment: scroll;
+	}
+}
+/* VIDEOS TOPOS */
 #myVideo {
 	position: absolute;
 	left: 0;
@@ -329,6 +533,7 @@ fieldset{
 	min-height: 100%;
 	z-index: 1;
 }
+/* TÍTULOS TOPO */
 .banner-info{
 	position: absolute;
 		bottom: 0;
@@ -353,12 +558,6 @@ fieldset{
 	color: #fff;
 	border-radius: none;
 }
-/*.card:nth-child(odd){
-	background-color: #deffa5;
-}
-.card:nth-child(even){
-	background-color: #f9b7b7;
-}*/
 .card-info{
 	position: absolute;
 		bottom: 0;
@@ -374,7 +573,7 @@ fieldset{
 	font-size: 18pt !important;
 	width: 100%;
 }
-/* CATEGORIAS */
+/* CATEGORIAS (HOME) */
 #dolmas{
 	background-image: url('img/fardas-guara-categoria-dolmas.jpg');
 	background-attachment: scroll;
@@ -383,6 +582,9 @@ fieldset{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 }
 #aventais{
@@ -393,6 +595,9 @@ fieldset{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 }
 #bar-e-restaurante{
@@ -403,7 +608,15 @@ fieldset{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
+}
+@media only screen and (max-device-width: 768px){
+	#bar-e-restaurante{
+		background-attachment: scroll;
+	}
 }
 #parrilleros{
 	background-image: url('img/fardas-guara-categoria-parrilleros.jpg');
@@ -413,6 +626,9 @@ fieldset{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 }
 #infantil{
@@ -423,6 +639,9 @@ fieldset{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 }
 #casual{
@@ -433,21 +652,98 @@ fieldset{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 }
-/*#pet{
-	background-image: url('img/fardas-guara-categoria-pet.jpg');
-	background-attachment: fixed;
+@media only screen and (max-device-width: 768px){
+	#casual{
+		background-attachment: scroll;
+	}
+}
+/* CATEGORIAS CARDS */
+#dolmas-card{
+	background-image: url('img/fardas-guara-categoria-dolmas-card.jpg');
+	background-attachment: scroll;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
-}*/
+}
+#aventais-card{
+	background-image: url('img/fardas-guara-categoria-aventais-card.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+}
+#bar-e-restaurante-card{
+	background-image: url('img/fardas-guara-categoria-bar-e-restaurante-card.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+}
+#parrilleros-card{
+	background-image: url('img/fardas-guara-categoria-parrilleros-card.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+}
+#infantil-card{
+	background-image: url('img/fardas-guara-categoria-infantil-card.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+}
+#casual-card{
+	background-image: url('img/fardas-guara-categoria-casual-card.jpg');
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	border-radius: unset;
+}
 /* CATEGORIA VITRINE DETALHE */
 .cat-vit{
-	background-image: url('img/bg-sobre.jpg');
+	background-image: url('img/fardas-guara-bg-produtos.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
@@ -455,6 +751,11 @@ fieldset{
 	background-repeat: repeat;
 	background-size: contain;
 	border-radius: unset;
+}
+@media only screen and (max-device-width: 768px){
+	.cat-vit{
+		background-attachment: scroll;
+	}
 }
 .cat-vit h2{
 	width: 100%;
@@ -500,7 +801,7 @@ fieldset{
 	margin: 0px -15px !important;
 	padding: 0 !important;
 }
-/* FLIP */
+/* PRODUTOS CARDS - FLIP */
 /* entire container, keeps perspective */
 .flip-container {
 	perspective: 1000px;
@@ -563,15 +864,23 @@ fieldset{
 	color: #000;
 	padding: 12% 20px;
 	width: 50vw;
-	background-image: url('img/frete-embalagem.jpg');
+	background-image: url('img/fardas-guara-banner-encomendas.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	text-align: center;
+}
+@media only screen and (max-device-width: 768px){
+	.cta-cotacao{
+		background-attachment: scroll;
+	}
 }
 h2.cta-btn{
 	margin: 0 !important;
@@ -630,7 +939,7 @@ h2.cta-btn{
 	padding: 12% 20px;
 	width: 100vw;
 	height: 23vh;
-	background-image: url('img/dolmas-mosaico.jpg');
+	background-image: url('img/fardas-guara-banner-mid-dolmas.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
@@ -639,6 +948,11 @@ h2.cta-btn{
 	background-size: contain;
 	border-radius: unset;
 	text-align: center;
+}
+@media only screen and (max-device-width: 768px){
+	.mosaico{
+		background-attachment: scroll;
+	}
 }
 .videcase-art{
 	margin-left: -23px !important;
@@ -668,8 +982,16 @@ h2.cta-btn{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	text-align: center;
+}
+@media only screen and (max-device-width: 768px){
+	.avental-banner{
+		background-attachment: scroll;
+	}
 }
 .bar-banner{
 	display: inline-block;
@@ -685,8 +1007,16 @@ h2.cta-btn{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	text-align: center;
+}
+@media only screen and (max-device-width: 768px){
+	.bar-banner{
+		background-attachment: scroll;
+	}
 }
 .casual-banner{
 	display: inline-block;
@@ -702,8 +1032,16 @@ h2.cta-btn{
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	text-align: center;
+}
+@media only screen and (max-device-width: 768px){
+	.casual-banner{
+		background-attachment: scroll;
+	}
 }
 .parrilleros-banner{
 	display: inline-block;
@@ -719,8 +1057,16 @@ h2.cta-btn{
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	text-align: center;
+}
+@media only screen and (max-device-width: 768px){
+	.parrilleros-banner{
+		background-attachment: scroll;
+	}
 }
 .infantil-banner{
 	display: inline-block;
@@ -736,11 +1082,19 @@ h2.cta-btn{
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	text-align: center;
 }
+@media only screen and (max-device-width: 768px){
+	.infantil-banner{
+		background-attachment: scroll;
+	}
+}
 /* SOBRE */
-.sobre{
+/*.sobre{
 	height: 100vh;
 	color: #fff;
 	background-image: url('img/guara-sobre.jpg');
@@ -750,11 +1104,14 @@ h2.cta-btn{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	display: inline-block;
-}
+}*/
 .poema{
-	background-image: url('img/bg-cta.jpg');
+	background-image: url('img/fardas-guara-bg-sobre.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
@@ -763,6 +1120,11 @@ h2.cta-btn{
 	background-size: contain;
 	border-radius: unset;
 	text-align: center;
+}
+@media only screen and (max-device-width: 768px){
+	.poema{
+		background-attachment: scroll;
+	}
 }
 .poema h2{
 	width: 100%;
@@ -789,15 +1151,23 @@ h2.cta-btn{
 	padding: 12% 20px;
 	width: 100vw;
 	height: 23vh;
-	background-image: url('img/sobre-banner-meio.jpg');
+	background-image: url('img/fardas-guara-dolmas-fardas-aventais-uniformes-topo.jpg');
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	text-align: center;
+}
+@media only screen and (max-device-width: 768px){
+	.sobre-banner{
+		background-attachment: scroll;
+	}
 }
 .poema-det p{
 	text-align: center;
@@ -815,14 +1185,14 @@ h2.cta-btn{
 	margin: 20px auto;
 }
 @media only screen and (min-device-width: 768px){
-.sobre-frete img{
-	width: 250px;
-	height: auto;
-	margin: 20px auto;
+	.sobre-frete img{
+		width: 250px;
+		height: auto;
+		margin: 20px auto;
 	}
 }
 /* CONTATO */
-.contato-banner{
+/*.contato-banner{
 	height: 100vh;
 	color: #fff;
 	background-image: url('img/contato-banner.jpg');
@@ -832,9 +1202,12 @@ h2.cta-btn{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	border-radius: unset;
 	display: inline-block;
-}
+}*/
 .contato{
 	font-family: 'Raleway', sans-serif;
 	background-color: #000 !important;

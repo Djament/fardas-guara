@@ -1,0 +1,14 @@
+{
+  "name": "Fardas Guará | Fardas, Aventais, Dólmãs e Uniformes Sob Medida",
+  "short_name": "Fardas Guará",
+  "start_url": "https://fardasguara.com",
+  "description": "Fardas, Aventais, Dólmãs e Uniformes Sob Medida.",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "icons": [{
+    "src": "img/logo-512.png",
+    "sizes": "512x512",
+    "type": "img/png"
+  }]
+}
