@@ -1,4 +1,4 @@
-# [![Djament](https://djament.com.br/assets/img/logo-20x20.png)](https://djament.com.br) Fardas Guará | Site Institucinoal e Catálogo de Moda
+# [![Djament](https://djament.com.br/favicons/favicon-32x32.png)](https://djament.com.br) Fardas Guará | Site Institucinoal e Catálogo de Moda
 ___
 ###### Desenvolvido por [Djament Comunicação] | [Marcelo Diament] em Agosto de 018
 ###### Versão: 0.0.1 | [ver site] | [ver repositório]
