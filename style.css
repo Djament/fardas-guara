@@ -147,6 +147,12 @@ strong{
 	color: #fff;
 	font-weight: lighter;
 }
+.dropdown-menu.show{
+	background-color: rgba(0,0,0,0.8)
+}
+a.dropdown-item:hover{
+	background-color:#000 !important
+}
 /* FOOTER */
 footer{
 	background-color: #000;
