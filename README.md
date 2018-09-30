@@ -8,7 +8,7 @@ Projeto desenvolvido para a divulgação da marca [Fardas Guará] e de seus prod
 
 ### // Resultados
 Últimos testes e audições realizados:
-[![Djament](https://raw.githubusercontent.com/Djament/fardas-guara/master/testes-audits/audits-seo-e-performance/google-chrome-audit-desktop-20180929.JPG)](https://github.com/Djament/fardas-guara/tree/master/testes-audits)
+[![Djament](https://raw.githubusercontent.com/Djament/fardas-guara/master/testes-audits/audits-seo-e-performance/google-chrome-audit-mobile-20180929.JPG)](https://github.com/Djament/fardas-guara/tree/master/testes-audits)
 [Testes e Audits] | [Resultados de Buscas Orgânicas]
 
 
