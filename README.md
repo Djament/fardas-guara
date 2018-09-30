@@ -6,6 +6,12 @@ ___
 ### // Apresentação
 Projeto desenvolvido para a divulgação da marca [Fardas Guará] e de seus produtos sob encomenda através de um site institucional.
 
+### // Resultados
+Últimos testes e audições realizados:
+[![Djament](https://raw.githubusercontent.com/Djament/fardas-guara/master/testes-audits/audits-seo-e-performance/google-chrome-audit-desktop-20180929.JPG)](https://github.com/Djament/fardas-guara/tree/master/testes-audits)
+[Testes e Audits] | [Resultados de Buscas Orgânicas]
+
+
 ---
 
 ### // Contextualização do Projeto
@@ -124,6 +130,8 @@ Arquivo class.smtp.php não acessível. Links referentes aos arquivos no [GitHub
    [Poiret One]: <https://fonts.google.com/specimen/Poiret+One>
    [Font Awesome]: <https://fontawesome.com/>
    [Google Analytics]: <https://analytics.google.com/analytics/web/>
+   [Testes e Audits]: <https://github.com/Djament/costureira-cenografia/tree/master/testes-audits/audits-seo-e-performance>
+   [Resultados de Buscas Orgânicas]: <https://github.com/Djament/costureira-cenografia/tree/master/testes-audits/google%20search>
    [OpenGraph]: <http://ogp.me/>
    [GitHub]: <https://github.com/>
    [JQuery]: <https://jquery.com/>
